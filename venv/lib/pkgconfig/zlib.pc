@@ -1,0 +1,13 @@
+prefix=/Users/lokesh/AgenticAiWorkflow/venv
+exec_prefix=/Users/lokesh/AgenticAiWorkflow/venv
+libdir=/Users/lokesh/AgenticAiWorkflow/venv/lib
+sharedlibdir=/Users/lokesh/AgenticAiWorkflow/venv/lib
+includedir=/Users/lokesh/AgenticAiWorkflow/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
