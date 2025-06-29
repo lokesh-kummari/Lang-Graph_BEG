@@ -1,0 +1,8 @@
+{
+    "dependencies":["."],
+    "graphs":{
+      "openai_agent":"./groqagent.py:agent"
+    },
+    "env":"../.env"
+  
+  }
